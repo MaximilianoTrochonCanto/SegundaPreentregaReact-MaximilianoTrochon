@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SegundaPreentregaReact-MaximilianoTrochon/static/css/main.f31158dd.css",
+    "main.js": "/SegundaPreentregaReact-MaximilianoTrochon/static/js/main.ea99ea98.js",
+    "static/js/787.e721a7b5.chunk.js": "/SegundaPreentregaReact-MaximilianoTrochon/static/js/787.e721a7b5.chunk.js",
+    "static/media/Fondo1.webp": "/SegundaPreentregaReact-MaximilianoTrochon/static/media/Fondo1.b1de937dbd43d5e9debd.webp",
+    "static/media/logo.svg": "/SegundaPreentregaReact-MaximilianoTrochon/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SegundaPreentregaReact-MaximilianoTrochon/index.html",
+    "main.f31158dd.css.map": "/SegundaPreentregaReact-MaximilianoTrochon/static/css/main.f31158dd.css.map",
+    "main.ea99ea98.js.map": "/SegundaPreentregaReact-MaximilianoTrochon/static/js/main.ea99ea98.js.map",
+    "787.e721a7b5.chunk.js.map": "/SegundaPreentregaReact-MaximilianoTrochon/static/js/787.e721a7b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f31158dd.css",
+    "static/js/main.ea99ea98.js"
+  ]
+}
