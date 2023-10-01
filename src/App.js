@@ -23,7 +23,7 @@ function App() {
         <Route path='/accesorios' element={<Accesorios />}/>          
         <Route path="/:productId" element={<ItemDetail/>} />            
         <Route path='/calzado/:productId' element={<ItemDetail/>}/>            
-        <Route path='/accesorios/:productId' element={<ItemDetail/>}/>  
+        <Route path='/accesorios/:productId' element={<ItemDetail/>}/>   
         
 
 

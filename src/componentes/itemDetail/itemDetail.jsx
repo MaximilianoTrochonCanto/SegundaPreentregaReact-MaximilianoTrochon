@@ -19,6 +19,7 @@ const ItemDetail = () => {
       <h1>{categoria} {nombre}</h1>            
       <img src={imagen} />
       <p>Stock: {stock}</p>
+      {console.log(imagen)}
       <p>Precio: ${precio}</p>
     </div>
       <Button className="boton " as={Link} to={url}>Volver</Button>
