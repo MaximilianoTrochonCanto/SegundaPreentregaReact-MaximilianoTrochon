@@ -9,7 +9,7 @@ const Cartwidget = () => {
   return (
       <>
     <div className='notificacion' current-count={Object.values(carritoItems).reduce((a, b) => a + b, 0)}></div>
-    <img src="SegundaPreentregaReact-MaximilianoTrochon/imagenes/cart.png" className='cart' alt="" />
+    <img src="/SegundaPreentregaReact-MaximilianoTrochon/imagenes/cart.png" className='cart' alt="" />
       </>
   )
 }
