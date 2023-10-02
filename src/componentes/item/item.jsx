@@ -14,8 +14,8 @@ const Item = (props) => {
 
     
     <div className='producto'>
-      <img src={imagen}/>
-      {categoria}: {nombre} <Button as={Link} to={url} className='boton botondetalle' variant="primary">Ver detalle</Button>
+      
+      {(stock>0)?<p><img src={imagen}/> {categoria}: {nombre} (${precio})<Button as={Link} to={url} className='boton botondetalle' variant="primary">Ver detalle</Button></p>:<p ><img src={imagen}/> <span className='no-disponible'>{categoria}: {nombre} (no disponible) </span> <Button as={Link} to={url} className='boton botondetalle' variant="primary">Ver detalle</Button></p>}
     
     </div>
     
