@@ -9,7 +9,7 @@ import {Router,Link,Route,Routes} from "react-router-dom"
 const Item = (props) => {
   const {id,nombre,precio, imagen,categoria,stock} = props.data
   let url;
-  (categoria === "Remera")?url = `/${id}`:(categoria === "Accesorio")?url = `/accesorios/${id}`:url = `/calzado/${id}`;
+  (categoria === "Remera")?url = `/SegundaPreentregaReact-MaximilianoTrochon/${id}`:(categoria === "Accesorio")?url = `/SegundaPreentregaReact-MaximilianoTrochon/accesorios/${id}`:url = `/SegundaPreentregaReact-MaximilianoTrochon/calzado/${id}`;
   return (
 
     

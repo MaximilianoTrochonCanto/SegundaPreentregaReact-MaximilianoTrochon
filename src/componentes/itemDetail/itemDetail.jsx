@@ -13,7 +13,7 @@ const ItemDetail = () => {
   const {quitarDeCarrito, agregarAlCarrito,carritoItems} = useContext(CarritoContext)
   let url;
  
-  (categoria === "Remera")?url = `/`:(categoria === "Accesorio")?url = `/accesorios`:url = `/calzado`;
+  (categoria === "Remera")?url = `/SegundaPreentregaReact-MaximilianoTrochon`:(categoria === "Accesorio")?url = `/SegundaPreentregaReact-MaximilianoTrochon/accesorios`:url = `/SegundaPreentregaReact-MaximilianoTrochon/calzado`;
   console.log(id)
 
     return (

@@ -22,12 +22,14 @@ function App() {
         <NavbarBootstrap/>
       </header>
       <Routes>
-        <Route path="/SegundaPreentregaReact-MaximilianoTrochon" element={<Remeras/>} />            
+        <Route path="/SegundaPreentregaReact-MaximilianoTrochon/" element={<Remeras/>} />            
+        <Route path="/" element={<Remeras/>} />            
+        <Route path="/SegundaPreentregaReact-MaximilianoTrochon/remeras" element={<Remeras/>} />            
         <Route path='/SegundaPreentregaReact-MaximilianoTrochon/calzado' element={<Calzado/>}/>            
         <Route path='/SegundaPreentregaReact-MaximilianoTrochon/accesorios' element={<Accesorios />}/>          
         <Route path="/SegundaPreentregaReact-MaximilianoTrochon/:productId" element={<ItemDetail/>} />            
-        <Route path='/calzado/SegundaPreentregaReact-MaximilianoTrochon/:productId' element={<ItemDetail/>}/>            
-        <Route path='/accesorios/SegundaPreentregaReact-MaximilianoTrochon/:productId' element={<ItemDetail/>}/>           
+        <Route path='/SegundaPreentregaReact-MaximilianoTrochon/calzado/:productId' element={<ItemDetail/>}/>            
+        <Route path='/SegundaPreentregaReact-MaximilianoTrochon/accesorios/:productId' element={<ItemDetail/>}/>           
         </Routes>
     </Router>
     </ContextProvider>
