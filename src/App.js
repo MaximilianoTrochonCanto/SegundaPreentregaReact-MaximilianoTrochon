@@ -9,10 +9,14 @@ import { Calzado } from './paginas/Calzado';
 import { Remeras } from './paginas/Remeras';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import ItemDetail from './componentes/itemDetail/itemDetail';
+import { ContextProvider } from './context/context';
+
 
 
 function App() {
   return(
+    <div>
+      <ContextProvider>
     <Router>
       <header>
         <NavbarBootstrap/>
@@ -23,15 +27,11 @@ function App() {
         <Route path='/accesorios' element={<Accesorios />}/>          
         <Route path="/:productId" element={<ItemDetail/>} />            
         <Route path='/calzado/:productId' element={<ItemDetail/>}/>            
-        <Route path='/accesorios/:productId' element={<ItemDetail/>}/>   
-        
-
-
+        <Route path='/accesorios/:productId' element={<ItemDetail/>}/>           
         </Routes>
     </Router>
-      
-    
-
+    </ContextProvider>
+    </div>
     
   )
   

@@ -34,7 +34,7 @@ const Randomusers = () => {
                 {
                     users.map((u,index )=> {
                         return(
-                            <div className='randomusers col-3'>
+                            <div key={index} className='randomusers col-3'>
                             <div >
                             <p style={{fontWeight:"bold"}}>{u.name.first} {u.name.last}</p>
                             <img src={u.picture.medium}></img>
